@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 30%;
+    margin: 10% auto;
+    padding: 5px 10px 5px 10px;
+    box-sizing: border-box;
+}
+.accord-modal {
+    width: 950px;
+    padding: 20px;
+    margin:  5px auto;
+    color: #fff;
+    background-color: #3E3E3E;
+    text-align: justify;
+    font-size: 0.9em;
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+    box-shadow: 0 10px 6px -6px #777;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.accord-modal:hover {
+    cursor: pointer;
+    background-color: #1E1E1E;
+}
+.panel-hidden {
+    width: 950px;
+    height: auto;
+    padding: 20px;
+    margin:  5px auto;
+    color: #000;
+    background-color: #F0F0F0;
+    text-align: justify;
+    font-size: 0.9em;
+    display: none;
+}
+.date{
+    padding-top: 5px;
+    color: #ffebe6;
+}
